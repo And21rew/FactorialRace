@@ -1,0 +1,891 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.19f1 (5f5eb8bbdc25) revision 6250168'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1503; Version 2009; 64bit' Language: 'ru' Physical Memory: 12270 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Andrew/Documents/GitHub/FactorialRace/FactorialRaceProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58142
+Successfully changed project path to: C:/Users/Andrew/Documents/GitHub/FactorialRace/FactorialRaceProject
+C:/Users/Andrew/Documents/GitHub/FactorialRace/FactorialRaceProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 168.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.19f1 (5f5eb8bbdc25)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Andrew/Documents/GitHub/FactorialRace/FactorialRaceProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
+    Vendor:   NVIDIA
+    VRAM:     1977 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003406 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 175.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.477 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2478ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (175ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010023 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrew\Documents\GitHub\FactorialRace\FactorialRaceProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrew\Documents\GitHub\FactorialRace\FactorialRaceProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 167.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.129 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2130ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1771ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (652ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (691ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (167ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3682 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4130.
+Total: 5.252700 ms (FindLiveObjects: 0.538300 ms CreateObjectMapping: 0.175400 ms MarkObjects: 4.449400 ms  DeleteObjects: 0.087300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/TestScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11bc0400d1975e9b953baee4a0db539') in 0.036985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.158568 seconds.
+  path: Assets/Scenes/TestScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/TestScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bd1d0047a5172e3e2a45578d0558d549') in 0.092251 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010060 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrew\Documents\GitHub\FactorialRace\FactorialRaceProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrew\Documents\GitHub\FactorialRace\FactorialRaceProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.924 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1925ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1586ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (652ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (506ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3675 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4133.
+Total: 5.000800 ms (FindLiveObjects: 0.503700 ms CreateObjectMapping: 0.175700 ms MarkObjects: 4.285500 ms  DeleteObjects: 0.034200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.5 MB.
+System memory in use after: 63.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4133.
+Total: 5.518100 ms (FindLiveObjects: 0.517800 ms CreateObjectMapping: 0.181100 ms MarkObjects: 4.784300 ms  DeleteObjects: 0.032400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010833 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrew\Documents\GitHub\FactorialRace\FactorialRaceProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrew\Documents\GitHub\FactorialRace\FactorialRaceProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.027 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2028ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (1699ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (784ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (488ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (343ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4147.
+Total: 5.189200 ms (FindLiveObjects: 0.545000 ms CreateObjectMapping: 0.208700 ms MarkObjects: 4.400400 ms  DeleteObjects: 0.033200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 621.209294 seconds.
+  path: Assets/City Pack/Scenes
+  artifactKey: Guid(d5a08cc55fee09646b5ab433609110b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Scenes using Guid(d5a08cc55fee09646b5ab433609110b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5665a3aa21d2d2b2fb499a9e19fe8977') in 0.017341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.649897 seconds.
+  path: Assets/City Pack/Demo/cityvers01_anim01.gif
+  artifactKey: Guid(3dab1f192d7dcba4eb713c1217e313f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Demo/cityvers01_anim01.gif using Guid(3dab1f192d7dcba4eb713c1217e313f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656e99514b47a6a297eb867248accd29') in 0.187674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/City Pack/Demo/CS03.png
+  artifactKey: Guid(b6f4c46665467e04bb78a03b87bb1cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Demo/CS03.png using Guid(b6f4c46665467e04bb78a03b87bb1cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ad7d4cc9ea50d40ac8833bd526bbb9') in 0.035699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/City Pack/Demo/cityvers01_anim02.gif
+  artifactKey: Guid(e60f138c2a1210342bc010cae9907ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Demo/cityvers01_anim02.gif using Guid(e60f138c2a1210342bc010cae9907ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3a9c2c891066ce4f408b4d158f134b') in 0.024609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.904586 seconds.
+  path: Assets/City Pack/Prefab/BD001_0.prefab
+  artifactKey: Guid(660de991c6e96574594b49018232048b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Prefab/BD001_0.prefab using Guid(660de991c6e96574594b49018232048b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dd78850998f001ddef3540f4a923c6') in 0.118501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/City Pack/Prefab/BL001_2.prefab
+  artifactKey: Guid(a7a018567498e9447a9048ef34dbee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Prefab/BL001_2.prefab using Guid(a7a018567498e9447a9048ef34dbee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9234b338f34cd52167313cdfd05b0a') in 0.027808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/City Pack/Prefab/SL001_0.prefab
+  artifactKey: Guid(c2bd7604de1e4774cabe40e7de088fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Prefab/SL001_0.prefab using Guid(c2bd7604de1e4774cabe40e7de088fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38562873eae107ee06d1e5fe9f3c1c31') in 0.027088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/City Pack/Prefab/SL001_10.prefab
+  artifactKey: Guid(7175fe6e56c60c44c8a9ee462bdf43fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Prefab/SL001_10.prefab using Guid(7175fe6e56c60c44c8a9ee462bdf43fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820509d2397345259b762f31166c6176') in 0.030375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/City Pack/Prefab/CP_V1.0.4_15.prefab
+  artifactKey: Guid(d8fa3df575c32414c8ceb24bfbb3b9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Prefab/CP_V1.0.4_15.prefab using Guid(d8fa3df575c32414c8ceb24bfbb3b9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03270945e51f115014757b512b6ca6cf') in 0.032798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/City Pack/Prefab/CP_V1.0.4_24.prefab
+  artifactKey: Guid(b0994952525b5f842b8ab94d60308a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Prefab/CP_V1.0.4_24.prefab using Guid(b0994952525b5f842b8ab94d60308a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372fc37640193704ba97f27e27590eff') in 0.026136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.194622 seconds.
+  path: Assets/City Pack/Sprites/CP_V1.0.4_nyknck
+  artifactKey: Guid(496bd12558bc70a4dbe5822046895784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Sprites/CP_V1.0.4_nyknck using Guid(496bd12558bc70a4dbe5822046895784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2657abcf77073fda8b044f64acad4141') in 0.009980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063645 seconds.
+  path: Assets/City Pack/Sprites/CP_V1.0.4_nyknck/CP_V1.0.4.png
+  artifactKey: Guid(2529f58c0f0f4784d925363eac539680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Sprites/CP_V1.0.4_nyknck/CP_V1.0.4.png using Guid(2529f58c0f0f4784d925363eac539680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cecd2719cf0f46795a7ed6e96c413e7') in 0.328498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.348955 seconds.
+  path: Assets/City Pack/Sprites/Animations
+  artifactKey: Guid(aa7529820d88dea41ba077c096311ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Sprites/Animations using Guid(aa7529820d88dea41ba077c096311ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2266d82318eaa3bd9e619b0b41d64c') in 0.013521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043002 seconds.
+  path: Assets/City Pack/Sprites/Animations/BD001.png
+  artifactKey: Guid(b79f22cd227d76c4b9c9986dcf0514f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Sprites/Animations/BD001.png using Guid(b79f22cd227d76c4b9c9986dcf0514f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0965002b9db02e1cd9381a8fc0452a7') in 0.074964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/City Pack/Sprites/Animations/BL001.png
+  artifactKey: Guid(9c7711ccb0a37d744b6f5071d082d28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Sprites/Animations/BL001.png using Guid(9c7711ccb0a37d744b6f5071d082d28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4930c3e5b4fa0da6686eecd3b154e6ea') in 0.067720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/City Pack/Sprites/Animations/SL001.png
+  artifactKey: Guid(f5bd07fe5e2679644ace619c8df24f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Pack/Sprites/Animations/SL001.png using Guid(f5bd07fe5e2679644ace619c8df24f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d83d21f9b169e91e974b0206d09d657') in 0.062497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.315335 seconds.
+  path: Assets/race_cars_2d/cars/driver.png
+  artifactKey: Guid(8e27e23403b594ddba605503e8a2dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/driver.png using Guid(8e27e23403b594ddba605503e8a2dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab511434c1436da6972bdf2e0d85a57e') in 0.022382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_7_left.png
+  artifactKey: Guid(ce8c651e3a7494bb7b27f580c7c98fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_7_left.png using Guid(ce8c651e3a7494bb7b27f580c7c98fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbaf28b83e37e16a24054efa0e33bbc') in 0.027706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_9_left.png
+  artifactKey: Guid(d9dca9a273c4a4afa8f38ff945597839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_9_left.png using Guid(d9dca9a273c4a4afa8f38ff945597839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305818e1deb12743df5478bb3d2a3553') in 0.026992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_8_left.png
+  artifactKey: Guid(2e905312bfcfb4462a8dbf7286701f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_8_left.png using Guid(2e905312bfcfb4462a8dbf7286701f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12f4f2f91d878b881231c2a486d2548') in 0.028577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_3_right.png
+  artifactKey: Guid(67e67187c9a8349bcaffbc2d7c0b18e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_3_right.png using Guid(67e67187c9a8349bcaffbc2d7c0b18e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e51ff844fa211126dc08319d0de7f79') in 0.026096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_7_right.png
+  artifactKey: Guid(4096293d043f64e5fbdac7380ef49277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_7_right.png using Guid(4096293d043f64e5fbdac7380ef49277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab3cb8852ec7d65788db98c36a9d816') in 0.027493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_1.png
+  artifactKey: Guid(e964dcf7e7c8e43c5864020c5100e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_1.png using Guid(e964dcf7e7c8e43c5864020c5100e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d1136d6a28aa699fa587589469038a') in 0.027668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_2.png
+  artifactKey: Guid(1f933e3eb1cb9427c90663457a8721cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_2.png using Guid(1f933e3eb1cb9427c90663457a8721cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bf5fa0faaa93e307f8d793ea69f6f2') in 0.026335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_8_right.png
+  artifactKey: Guid(8e19036d34c054d1882b966300560ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_8_right.png using Guid(8e19036d34c054d1882b966300560ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f903f0f4151f417c0424cf61cf479bc') in 0.027757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_5.png
+  artifactKey: Guid(80fbe2bc9e63140e7942abbfa08e4cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_5.png using Guid(80fbe2bc9e63140e7942abbfa08e4cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4ccb38a9f0029e7cac8d654a2eaf4a') in 0.025467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_3_left.png
+  artifactKey: Guid(01b7003a948f346f88d74b4157877a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_3_left.png using Guid(01b7003a948f346f88d74b4157877a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fe92b284fd6cae09cb4eabf4b2c6dc') in 0.025688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_2_right.png
+  artifactKey: Guid(8947f897c9e9b4a87b25c5efd64a00f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_2_right.png using Guid(8947f897c9e9b4a87b25c5efd64a00f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5d12909a85836e5d380e68d26183bf') in 0.024335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_10_left.png
+  artifactKey: Guid(bf1f7b3d297474f12b8751b4a61a5022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_10_left.png using Guid(bf1f7b3d297474f12b8751b4a61a5022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc1d005edad5d10a4d03733e837edfd') in 0.025835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_8.png
+  artifactKey: Guid(b62a53f43df834a6a877c2ad49d84769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_8.png using Guid(b62a53f43df834a6a877c2ad49d84769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9691e57c709c2fa18362d7f5d011940a') in 0.027470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_1_right.png
+  artifactKey: Guid(fe9bea31776884022abaefe4256e2a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_1_right.png using Guid(fe9bea31776884022abaefe4256e2a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fc4efdd00b36fa9dc2e87380f79411') in 0.025816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_4_right.png
+  artifactKey: Guid(545c7d06e2ebb42c6ba840ca0c7f1c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_4_right.png using Guid(545c7d06e2ebb42c6ba840ca0c7f1c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3089375eb83d233fe46b312b0e3dcde') in 0.025462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_5_right.png
+  artifactKey: Guid(ef9bd3d9432d64cceb6e07ddb6db0f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_5_right.png using Guid(ef9bd3d9432d64cceb6e07ddb6db0f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ad4ec1449c204b07bf77d93f005914') in 0.025291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_6_right.png
+  artifactKey: Guid(7d522dd63580946b080cc5dbb63ef5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_6_right.png using Guid(7d522dd63580946b080cc5dbb63ef5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd2d46a9b8c6eee52a7d8d98c2f1c05') in 0.026339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_6_left.png
+  artifactKey: Guid(292fed72a8cc44f5c9e2d39f013fae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_6_left.png using Guid(292fed72a8cc44f5c9e2d39f013fae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929737a696346dd1ff8a1d1bec249216') in 0.027254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_9.png
+  artifactKey: Guid(e99949c282dd34777995326a22e6eede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_9.png using Guid(e99949c282dd34777995326a22e6eede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497f9dc3fedb9fad35533f6afca23f9a') in 0.027721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_10_right.png
+  artifactKey: Guid(72591d104f71a44cd9d03bc260a67dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_10_right.png using Guid(72591d104f71a44cd9d03bc260a67dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d38757569dd777517f9afd01d2eacfb') in 0.028355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_4_left.png
+  artifactKey: Guid(a6028e4f465bf4aee8a16713763df4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_4_left.png using Guid(a6028e4f465bf4aee8a16713763df4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190e73e14025fda6b7eedca09a53a938') in 0.032528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_5_left.png
+  artifactKey: Guid(b0318d0db12914b9e9cc242036a8929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_5_left.png using Guid(b0318d0db12914b9e9cc242036a8929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098326108439d7710118d4cd79244a69') in 0.026565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_7.png
+  artifactKey: Guid(59bd34a62f23848bcb5f01e90f4e2eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_7.png using Guid(59bd34a62f23848bcb5f01e90f4e2eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052a87ee08d27cf3218f626ab8c127e6') in 0.025105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_4.png
+  artifactKey: Guid(c3175ef48e96549649bb4f03fb4d1edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_4.png using Guid(c3175ef48e96549649bb4f03fb4d1edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79959cb70f22f72eed820a0e3198c496') in 0.026344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_3.png
+  artifactKey: Guid(8da3d3b1471a747bf88d06a643cf1e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_3.png using Guid(8da3d3b1471a747bf88d06a643cf1e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0b66b1ab6e59838dca78caa7eac37c') in 0.027628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_9_right.png
+  artifactKey: Guid(8233bda674aef4bbaa4da52e1e194401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_9_right.png using Guid(8233bda674aef4bbaa4da52e1e194401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871f95fd33a615eff96019fc103d82c6') in 0.026920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_6.png
+  artifactKey: Guid(4e88263667bf84545b3be4e62af6cd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_6.png using Guid(4e88263667bf84545b3be4e62af6cd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33118aa817ea6876f975ab00c2eb196') in 0.026874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_2_left.png
+  artifactKey: Guid(c862f765cb6f04cbe8761ed6716f854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_2_left.png using Guid(c862f765cb6f04cbe8761ed6716f854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fb08e858d0cdab778a26e8cb9667b6') in 0.025777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_1_left.png
+  artifactKey: Guid(027e2f3cea9e449b8bdcc09425eedef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_1_left.png using Guid(027e2f3cea9e449b8bdcc09425eedef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e42dbb8403471bd3c4b368fc7aa0df') in 0.028178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_10.png
+  artifactKey: Guid(5157ade10701b45269045a761cd5162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_10.png using Guid(5157ade10701b45269045a761cd5162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f2eb89b1687a204381aa0dcff6c8b8') in 0.036082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.253225 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_11.png
+  artifactKey: Guid(0c88e0340c88a4f40845179b7fba56df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_11.png using Guid(0c88e0340c88a4f40845179b7fba56df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb8adb9dad97c436af046574a2b4c00') in 0.021880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_14.png
+  artifactKey: Guid(deacc2f6d552f443b957c87da1a1945e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_14.png using Guid(deacc2f6d552f443b957c87da1a1945e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af62f3cb413cd8de9568c7a886280821') in 0.032983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_17.png
+  artifactKey: Guid(3493209433bcc4f2d942ba3583903c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_17.png using Guid(3493209433bcc4f2d942ba3583903c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a220653ba21a31d99519b53d0f250c29') in 0.032984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_19.png
+  artifactKey: Guid(496b6a3a53fb44a7dbf2fff5720eae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_19.png using Guid(496b6a3a53fb44a7dbf2fff5720eae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2185363dbce35faad85375943c3951bc') in 0.026306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_13.png
+  artifactKey: Guid(69f6c55ccbd86409db29b8caaac9b56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_13.png using Guid(69f6c55ccbd86409db29b8caaac9b56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca40a213516c19cbb15000409f79eed0') in 0.027158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_20.png
+  artifactKey: Guid(d889ff1e4a02f4de3a797b5298b8b24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_20.png using Guid(d889ff1e4a02f4de3a797b5298b8b24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ea8635965b6ddd48af9f5db791a286') in 0.030263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_16.png
+  artifactKey: Guid(e8b93ecda221b45af98824ca7e0353a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_16.png using Guid(e8b93ecda221b45af98824ca7e0353a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447897005da7256ed63933812b1a9e12') in 0.025912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_15.png
+  artifactKey: Guid(d8dccfb21320349efaadc4c3784a4d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_15.png using Guid(d8dccfb21320349efaadc4c3784a4d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cb0c5b6a6ef4c50bd54592d4294cd6') in 0.039108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_18.png
+  artifactKey: Guid(8416682a301d04fef9477f0380d322e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_18.png using Guid(8416682a301d04fef9477f0380d322e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c16c6e141711d4dad5399cc34776a9') in 0.028067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/race_cars_2d/cars/pitstop_car_12.png
+  artifactKey: Guid(bb6f4dfef6275476e8ee75a6a47189e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/cars/pitstop_car_12.png using Guid(bb6f4dfef6275476e8ee75a6a47189e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ae5dc049ec62e4479179f1dbf04d1d') in 0.029344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.098536 seconds.
+  path: Assets/race_cars_2d/mechanic/mechanic.png
+  artifactKey: Guid(e51ed34b9cdec4ecf96629f8bac5f851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/mechanic/mechanic.png using Guid(e51ed34b9cdec4ecf96629f8bac5f851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8303d4c59da35d930f31e02f6d5ad6a1') in 0.024423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/race_cars_2d/mechanic/mechanic_gray_black.png
+  artifactKey: Guid(c271d501b877e4578a5b8dd3832a3cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/mechanic/mechanic_gray_black.png using Guid(c271d501b877e4578a5b8dd3832a3cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b082a5f472fe866f4ef55501b659f4') in 0.026027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/race_cars_2d/mechanic/mechanic_white.png
+  artifactKey: Guid(d80c8851d9fe64747b1c3a578c79b80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/mechanic/mechanic_white.png using Guid(d80c8851d9fe64747b1c3a578c79b80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c0d11733b3878f3432f7ff6afc2920') in 0.026811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/race_cars_2d/mechanic/mechanic_blue.png
+  artifactKey: Guid(4c578b09b21d64825b15f60c4c9aced9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/mechanic/mechanic_blue.png using Guid(4c578b09b21d64825b15f60c4c9aced9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df30e912c6490e299e24017b4922e462') in 0.027081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/race_cars_2d/mechanic/mechanic_green.png
+  artifactKey: Guid(2784d7d647b904dd882568c6d0b24bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/mechanic/mechanic_green.png using Guid(2784d7d647b904dd882568c6d0b24bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd989db475f0a9f228e063f883c5135de') in 0.025993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/race_cars_2d/mechanic/mechanic_gray.png
+  artifactKey: Guid(49c6aeb52d6054b88a21892d79dc127b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/mechanic/mechanic_gray.png using Guid(49c6aeb52d6054b88a21892d79dc127b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13211be0da4ac088bb5a5a6ad20fdd1e') in 0.027918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/race_cars_2d/mechanic/mechanic_black_yellow.png
+  artifactKey: Guid(0f85485c8742c4cc1ab4829ca160ccaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/mechanic/mechanic_black_yellow.png using Guid(0f85485c8742c4cc1ab4829ca160ccaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493f95f9915f2da81522694a7e420f9f') in 0.026345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/race_cars_2d/mechanic/mechanic_orange.png
+  artifactKey: Guid(650f35e2b98a2456eafda3b32cbee42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/mechanic/mechanic_orange.png using Guid(650f35e2b98a2456eafda3b32cbee42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da11966a1812469f4b79be0b0412ef7') in 0.025596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/race_cars_2d/mechanic/mechanic_gray_red.png
+  artifactKey: Guid(cfbb5d9914646475bb5b2258aeb5008f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/mechanic/mechanic_gray_red.png using Guid(cfbb5d9914646475bb5b2258aeb5008f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3379f86f3294a979ac4f21cfa02ea6e1') in 0.024951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.577061 seconds.
+  path: Assets/race_cars_2d/misc/asphalt_1.png
+  artifactKey: Guid(af435729406dc489291970ead1b15430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/asphalt_1.png using Guid(af435729406dc489291970ead1b15430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16206421f2f14c10d6a76f31449767e7') in 0.047921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/race_cars_2d/misc/pitlane.png
+  artifactKey: Guid(a8bae6f6021aa42ec905d8ef299933ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/pitlane.png using Guid(a8bae6f6021aa42ec905d8ef299933ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bebf07abf7cae529ae92a0a1e96fe4') in 0.059468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/race_cars_2d/misc/level_10.png
+  artifactKey: Guid(0aa2bdaf3f03e4743b70cc3dcd816644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/level_10.png using Guid(0aa2bdaf3f03e4743b70cc3dcd816644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a9a31ca9a2e018bcb1a15e736fef3a') in 0.027592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/race_cars_2d/misc/play_button_3.png
+  artifactKey: Guid(4400168774c6a4eb182ebab6c8856607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/play_button_3.png using Guid(4400168774c6a4eb182ebab6c8856607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f50d781915c5420511e4d36cbd7b74') in 0.024206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/race_cars_2d/misc/level_5.png
+  artifactKey: Guid(b47df64dc00b34844ac3bf638d43c9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/level_5.png using Guid(b47df64dc00b34844ac3bf638d43c9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b272f5aaae906415c0a0e95bc32be1') in 0.024514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/race_cars_2d/misc/play_button_2.png
+  artifactKey: Guid(48ba34124740e4d73b9f684eeba8ce2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/play_button_2.png using Guid(48ba34124740e4d73b9f684eeba8ce2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cb03a36edd929e8d0b9118fff1aa1c') in 0.023831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/race_cars_2d/misc/sem_2_red.png
+  artifactKey: Guid(7d51f2e4a03b44c4caf92e1451022e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/sem_2_red.png using Guid(7d51f2e4a03b44c4caf92e1451022e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91465953a5be6db8a9a8f39b47b228cd') in 0.026130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/race_cars_2d/misc/sem_off.png
+  artifactKey: Guid(075e8a9df51454505b062ecb4a81e95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/sem_off.png using Guid(075e8a9df51454505b062ecb4a81e95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26039f00f7382a92b5a34fd4b8763ec8') in 0.024165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/race_cars_2d/misc/game_title.png
+  artifactKey: Guid(2223d8b1f83bf4a319088b2b6223d9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/game_title.png using Guid(2223d8b1f83bf4a319088b2b6223d9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cc8a1277a4cc54cf72d00f81477dad') in 0.025997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/race_cars_2d/misc/sub_stars_3.png
+  artifactKey: Guid(747bd0d9a29fa43768d339c0903d21ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/sub_stars_3.png using Guid(747bd0d9a29fa43768d339c0903d21ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd563c6449b3893aa3ef82a8fb95968e7') in 0.024620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/race_cars_2d/misc/sem_all_green.png
+  artifactKey: Guid(df8c56e8c54b74e57841537e5d65cbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/sem_all_green.png using Guid(df8c56e8c54b74e57841537e5d65cbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc664ac6b9ddbbb1b8d875f203c0be7') in 0.029213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/race_cars_2d/misc/level_locked.png
+  artifactKey: Guid(aceb7a58a13c4401a8c1f0d51edcc5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/level_locked.png using Guid(aceb7a58a13c4401a8c1f0d51edcc5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2209a88143201370b12c5172650956') in 0.026889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/race_cars_2d/misc/level_9.png
+  artifactKey: Guid(6fbc70a11e123431e92d7130ebbd3648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/level_9.png using Guid(6fbc70a11e123431e92d7130ebbd3648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f901f605d8e557d94f3443de0395f8e6') in 0.025729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/race_cars_2d/misc/level_3.png
+  artifactKey: Guid(d276158f38c2f4d40823b55177e675c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/level_3.png using Guid(d276158f38c2f4d40823b55177e675c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3d1e9b9f712b174127b77fb23dcfd2') in 0.032620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/race_cars_2d/misc/sub_stars_2.png
+  artifactKey: Guid(b0b63536947174199bbbee71b71bf792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/sub_stars_2.png using Guid(b0b63536947174199bbbee71b71bf792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb6bd7d858d88e30253762522e2585e') in 0.024233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/race_cars_2d/misc/level_6.png
+  artifactKey: Guid(8550b4926a01b40b9a9797b87a077964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/level_6.png using Guid(8550b4926a01b40b9a9797b87a077964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d00717c6126fe2217960f8263e6410c') in 0.027509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/race_cars_2d/misc/level_1.png
+  artifactKey: Guid(d2f54426a31a6444799888e75e1a6d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/level_1.png using Guid(d2f54426a31a6444799888e75e1a6d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f61108d8e6a5902edfd6b2fe36bc8d') in 0.027225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/race_cars_2d/misc/asphalt_2.png
+  artifactKey: Guid(a30392a784a434e0ba3dd9aad0551bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/asphalt_2.png using Guid(a30392a784a434e0ba3dd9aad0551bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce0dece91d4301ed8fd60427052f0e6') in 0.036740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/race_cars_2d/misc/pitlane_lines.png
+  artifactKey: Guid(0c733fd2e7d3e4f6580f796c7b94deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/pitlane_lines.png using Guid(0c733fd2e7d3e4f6580f796c7b94deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3178593ba71a7c473a7a121c21d12ca') in 0.028069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/race_cars_2d/misc/level_7.png
+  artifactKey: Guid(b23cb04c3abf24c59ab722d09fa39e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/level_7.png using Guid(b23cb04c3abf24c59ab722d09fa39e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209a18ece19bdd2ad104a86e10f38e16') in 0.026891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/race_cars_2d/misc/sem_3_red.png
+  artifactKey: Guid(e9ec8c343fcbc4a0893e3ab383948e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/sem_3_red.png using Guid(e9ec8c343fcbc4a0893e3ab383948e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beeced9bdbb392cb441dff415505a6f8') in 0.026628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/race_cars_2d/misc/sub_stars_1.png
+  artifactKey: Guid(4c4b793d73fe34ce08f20429c6b3a74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/sub_stars_1.png using Guid(4c4b793d73fe34ce08f20429c6b3a74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8e74ac94e8ad418e94d5a00fc73203') in 0.026392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/race_cars_2d/misc/level_4.png
+  artifactKey: Guid(42e0e3dd6934a4ece8e4de8f712eec45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/level_4.png using Guid(42e0e3dd6934a4ece8e4de8f712eec45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd238cd8d96fe925eb9e980b9468080ab') in 0.027649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/race_cars_2d/misc/level_2.png
+  artifactKey: Guid(c24213e343aab4e2798c3eb3b82bd43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/level_2.png using Guid(c24213e343aab4e2798c3eb3b82bd43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77192d8252975a833a5fc9e4c8330145') in 0.026365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/race_cars_2d/misc/level_8.png
+  artifactKey: Guid(41381f7dcc34343b1932e59ea8131e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/level_8.png using Guid(41381f7dcc34343b1932e59ea8131e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b131b1cb719a4cda3e027c4aaebd87dd') in 0.027568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/race_cars_2d/misc/play_button_4.png
+  artifactKey: Guid(1ff27ee701a8d4b6f9487828b7ec9c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/play_button_4.png using Guid(1ff27ee701a8d4b6f9487828b7ec9c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2255ff3ccdf5206a70b6bc7ac07c4023') in 0.023283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/race_cars_2d/misc/sem_all_red.png
+  artifactKey: Guid(0ae383c7aff4a40579ac8162e04aa626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/sem_all_red.png using Guid(0ae383c7aff4a40579ac8162e04aa626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bac5057d7d6bd91191cddebeb86efd') in 0.024997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/race_cars_2d/misc/sub_stars_0.png
+  artifactKey: Guid(e1ef4967b2a1b4cffae774a1f0335f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/sub_stars_0.png using Guid(e1ef4967b2a1b4cffae774a1f0335f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802c8bebaa1b0a874d56a905b1784fc6') in 0.026679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/race_cars_2d/misc/gameover_menu.png
+  artifactKey: Guid(bfacef54f15344f3e9f942b935f590a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/gameover_menu.png using Guid(bfacef54f15344f3e9f942b935f590a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52a61c5159602a270ab5db444676202') in 0.028489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/race_cars_2d/misc/play_button.png
+  artifactKey: Guid(f2bab20dd2e824cf3bc9b55cae1e43bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/play_button.png using Guid(f2bab20dd2e824cf3bc9b55cae1e43bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041d0aa47249681d5234f7b1a8c8d79e') in 0.025254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/race_cars_2d/misc/sem_1_red.png
+  artifactKey: Guid(5ca9a143ef7f84716b5b1afb9c728ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/sem_1_red.png using Guid(5ca9a143ef7f84716b5b1afb9c728ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1553e49278134756ce3034fd28a8ea') in 0.024461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.328468 seconds.
+  path: Assets/race_cars_2d/misc/tire.png
+  artifactKey: Guid(cbf59f3e21b2144cb89bac69f96f6ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/tire.png using Guid(cbf59f3e21b2144cb89bac69f96f6ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df38756e582d7efde7a4b5e5edfdd817') in 0.024473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/race_cars_2d/misc/yellow_line.png
+  artifactKey: Guid(34a5944cd28d6458192e02876c8b43c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/yellow_line.png using Guid(34a5944cd28d6458192e02876c8b43c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9226a4e9c5827b4dfd980f348987e3') in 0.027341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/race_cars_2d/misc/white_line.png
+  artifactKey: Guid(bbd33e4a1915a49f08fe5af26f0aa493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race_cars_2d/misc/white_line.png using Guid(bbd33e4a1915a49f08fe5af26f0aa493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0fcfe25adda1f68fa1a98c00c5d207') in 0.025777 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
